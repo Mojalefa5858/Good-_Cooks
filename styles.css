@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color:  #181b29;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 30px;
+    height: 300px;
+    font-weight: bold;
+    font-family: Arial;
+    border-bottom: 3px solid #a72828;
+    position:sticky;
+}
+.headerbtns{
+    margin-left: 200px;
+}
+.welcome h1{
+    font-size: 25px;
+}
+.headerbtns button{
+    background-color:#181b29;
+    color: #ffffff;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.headerbtns button:hover{
+    color: rgb(204, 85, 85);
+    transition: .15s;
+}
+.headercontent{
+    color: white;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+}
+.welcome{
+    font-family: Arial;
+    font-weight: lighter;
+    padding-right: 80px;
+    padding-top: 40px;
+
+}
+.Ourchiefs{
+    font-family: Arial;
+    font-weight: lighter;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+.testimonies img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    object-position: center;
+    object-fit:cover;
+
+
+}
+.testimonies{
+    display: flex;
+    padding: 30px;
+    border: #181b29;
+    border-width: 3px;
+    margin-left: 40px;
+}
+.testimonies p{
+    padding: 30px;
+}
+.testimonies h2 h1 p{
+    padding: 30px;
+    margin: 30px;
+}
+.footer{
+    border-top: 3px solid #a72828;
+    border-width: 3px;
+    height: 190px;
+    background-color: #181b29;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+.footer img{
+    padding: 5px;
+}
+.header{
+    margin-top: 50px;
+    color: white;
+
+}
+.mission1 img{
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 250px;
+}
+.missionbody1{
+    display: flex;
+}
+.mission1{
+    display: flex;
+    margin-top: 30px;
+}
+.mission1 p{
+    padding-top: 40px;
+    width: 500px;
+    height: auto;
+    padding-left: 50px;
+}
+.mission2 img{
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 250px;
+}
+.mission2{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 100px;
+}
+.mission2 p{
+    height: 50px;
+    margin-top: 100px;
+    padding-left: 150px;
+    border-bottom: #a72828;
+    border-width: 3px;
+}
+.mission3 img{
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 250px;
+}
+.mission3 p{
+    padding-top: 40px;
+    width: 500px;
+    height: auto;
+    padding-left: 50px;
+}
+.mission3{
+    display: flex;
+    margin-bottom: 30px;
+}
+.pics img{
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.contacts{
+    margin: 50px;
+    display: flex;
+}
+.contacts:hover a{
+    border-width: 4px;
+
+}
+.contacts a{
+    margin-top: 130px;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    font-size: 50px;
+    color: #181b29;
+}
+.time img{
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.time p{
+    padding-left: 40px;
+    margin-top: 60px;
+}
+.time{
+    display: flex;
+}
+.time2 img{
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.directions img{
+    padding-left: 30px;
+}
+.directions p {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:underline;
+}
+.directions{
+    margin-bottom: 30px;
+}
+.middle img{
+    margin-left: 70px;
+}
+.missionst {
+    padding: 10px;
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.facebook :hover{
+    color: #a72828;
+    transition: .15s;
+    border: #181b29;
+}
+.whatsapp :hover{
+    color: #a72828;
+    transition: .15s;
+    border: #181b29;
+}
+.x :hover{
+    color: #a72828;
+    transition: .15s;
+    border: #181b29;
+}
+.instagram :hover{
+    color: #a72828;
+    transition: .15s;
+    border: #181b29;
+}
+.pinterest :hover{
+    color: #a72828;
+    transition: .15s;
+    border: #181b29;
+}
+.linkedin :hover{
+    color: #a72828;
+    transition: .15s;
+    border: #181b29;
+}
